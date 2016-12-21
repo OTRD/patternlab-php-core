@@ -27,13 +27,19 @@
       "PatternLab":   "src/"
     }
   },
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/OTRD/ArrayFinder.git"
+		}
+	],	
   "require": {
-    "php": ">=5.4",
+    "php": ">=5.3",
     "alchemy/zippy": "^0.3",
     "kevinlebrun/colors.php": "^1.0",
     "michelf/php-markdown": "^1.6",
     "seld/jsonlint": "^1.0",
-    "shudrum/array-finder": "^1.0",
+    "OTRD/array-finder": "^1.1",
     "symfony/event-dispatcher": "^3.0",
     "symfony/filesystem": "^3.0",
     "symfony/finder": "^3.0",
